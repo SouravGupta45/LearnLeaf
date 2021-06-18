@@ -10,18 +10,15 @@ import streamlit as st
 
 st.title("Plant Disease Detection App")
 default_image_size = tuple((256, 256))
-model = tf.keras.models.load_model('/home/soumrav/cnn_model.h5')
+model = tf.keras.models.load_model('./cnn_model.h5')
 
-logo = Image.open('/home/soumrav/Pictures/download.jpeg')
+logo = Image.open('.download.jpeg')
 st.image(logo,width=100,channels='BGR')
 
 st.header('Learn Leaf Project')
 
 img_path = st.file_uploader('Upload Your Image:', type='jpg')
-#image = Image.open(img_path)
-#st.image(image,caption='Uploaded Image',width=300,channels='BGR')
 
-#image = '/home/trillian/plantvillage/PlantVillage/Tomato_healthy/0a0d6a11-ddd6-4dac-8469-d5f65af5afca___RS_HL 0555.JPG'
 
 def convert_image_to_array(image_dir):
     try:
