@@ -48,5 +48,5 @@ We made different experimentation with different we different model architecture
 
    ![alt text](https://github.com/SouravGupta45/LearnLeaf/blob/main/Output/AppUI.png "APP UI")
    ![alt text](https://github.com/SouravGupta45/LearnLeaf/blob/main/Output/AppUI1.png "APP UI")
-   ![alt text](https://github.com/SouravGupta45/LearnLeaf/blob/main/Output/App3.png "APP UI")
+   ![alt text](https://github.com/SouravGupta45/LearnLeaf/blob/main/Output/app3.png "APP UI")
 
